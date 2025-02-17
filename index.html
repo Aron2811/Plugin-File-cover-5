@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black">
+
+    <!-- SECTION-ONE -->
+    <div class="w-full flex flex-col md:flex-row items-start px-4 pt-12 section-one">
+
+        <!-- Light Image (left Side) -->
+        <img src="assets/yellow light.png" alt="Light Effect" 
+        class="absolute top-0 left-0 -translate-x-1/4 w-[900px] opacity-60 pointer-events-none z-0">
+
+        <!-- Second Light Image (Right Side) -->
+        
+        <img src="assets/yellow light.png" alt="Light Effect" 
+        class="absolute top-0 right-0 translate-x-[-1%] w-[800px] opacity-60 pointer-events-none z-0">
+
+    <!-- Section one flex container -->
+    <div class="flex flex-col md:flex-row items-center md:items-start justify-center gap-8 text-left w-full sectionone-container">
+
+    <!-- Left Side - Text -->
+    <div class="p-6 md:p-10 mt-3 text-center md:text-left">
+        <h2 class="text-4xl md:text-6xl lg:text-8xl font-bold text-white">
+            LOREM<br>IPSUM<br>DOLOR
+        </h2>
+        <p class="mt-4 text-sm md:text-lg lg:text-xl text-white font-semibold max-w-md mx-auto md:mx-0">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Distinctio maiores assumenda architecto! Fugit consequuntur 
+            eius nobis iusto autem!
+        </p>
+        
+        <!-- Oblong Yellow Button with Image -->
+        <div class="mt-6 flex items-center gap-4 button-container">
+            <button class="bg-yellow-300 hover:bg-yellow-500 text-black font-bold py-3 px-8 rounded-full text-lg shadow-lg transition">
+                <h2>LOREM IPSUM</h2>
+            </button>
+            <img src="assets/arrow.png" alt="Button Icon" 
+            class="w-12 h-12 md:w-16 md:h-16 object-contain transition-transform duration-300 ease-in-out hover:scale-125 cursor-pointer arrow-icon ">
+        </div>  
+    </div>
+
+    <!-- Right Side - Image -->
+    <div class="relative w-full max-w-lg">
+        <img src="assets/human-background.png" alt="Background Image"
+            class="w-full h-auto object-cover rounded-lg opacity-80">
+        <img src="assets/human.png" alt="Foreground Image"
+            class="absolute top-0 left-[8] w-full h-auto object-cover rounded-lg mix-blend-normal">
+    </div>
+</div>
+    </div>
+
+  <!-- SECTION TWO -->
+<div class="w-full min-h-[80vh] flex flex-col items-start px-4 pt-12 section-two relative">
+    <!-- Text Section (Upper Left) -->
+    <div class="flex flex-col items-start text-left pl-6 md:pl-12">
+        <div>
+            <h2 class="text-yellow-300 text-3xl md:text-5xl lg:text-7xl xl:text-8xl font-bold">LOREM</h2>
+            <h2 class="text-white text-3xl md:text-5xl lg:text-7xl xl:text-8xl font-bold mt-2 md:mt-4">LOREM IPSUM</h2>
+        </div>
+    </div>
+    <!-- Character Section -->
+    <div class="flex flex-wrap justify-start items-center gap-3 sm:gap-4 lg:gap-6 w-full pl-6 md:pl-12 mt-6 characters-container">
+    <!-- Character Box 1 -->
+    <div class="relative flex flex-col items-center w-[130px] md:w-[150px] lg:w-[170px]">
+        <div class="absolute w-28 h-72 bg-yellow-300 opacity-30 blur-3xl rounded-full"></div>
+        <div class="relative w-full h-[320px] md:h-[400px] lg:h-[480px] overflow-hidden rounded-full shadow-lg border border-gray-700 bg-black/70 
+            transition-transform duration-300 ease-in-out md:hover:scale-110">
+            <img src="assets/first-character.png" alt="First Character" class="w-full h-full object-cover">
+            <img src="assets/arrow.png" alt="Check Icon" 
+            class="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-10 h-10 sm:w-12 sm:h-12 
+            transition-transform duration-300 ease-in-out md:hover:scale-125 cursor-pointer">
+        </div>
+    </div>
+
+    <!-- Character Box 2 -->
+    <div class="relative flex flex-col items-center w-[130px] md:w-[150px] lg:w-[170px]">
+        <div class="absolute w-28 h-72 bg-yellow-300 opacity-30 blur-3xl rounded-full"></div>
+        <div class="relative w-full h-[320px] md:h-[400px] lg:h-[480px] overflow-hidden rounded-full shadow-lg border border-gray-700 bg-black/70 
+            transition-transform duration-300 ease-in-out md:hover:scale-110">
+            <img src="assets/second-character.png" alt="Second Character" class="w-full h-full object-cover">
+            <img src="assets/arrow.png" alt="Check Icon" 
+            class="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-10 h-10 sm:w-12 sm:h-12 
+            transition-transform duration-300 ease-in-out md:hover:scale-125 cursor-pointer">
+        </div>
+    </div>
+
+    <!-- Character Box 3 -->
+    <div class="relative flex flex-col items-center w-[130px] md:w-[150px] lg:w-[170px]">
+        <div class="absolute w-28 h-72 bg-yellow-300 opacity-30 blur-3xl rounded-full"></div>
+        <div class="relative w-full h-[320px] md:h-[400px] lg:h-[480px] overflow-hidden rounded-full shadow-lg border border-gray-700 bg-black/70 
+            transition-transform duration-300 ease-in-out md:hover:scale-110">
+            <img src="assets/third-character.png" alt="Third Character" class="w-full h-full object-cover">
+            <img src="assets/arrow.png" alt="Check Icon" 
+            class="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-10 h-10 sm:w-12 sm:h-12 
+             transition-transform duration-300 ease-in-out md:hover:scale-125 cursor-pointer">
+        </div>
+    </div>
+
+    <!-- Character Box 4 -->
+    <div class="relative flex flex-col items-center w-[130px] md:w-[150px] lg:w-[170px]">
+        <div class="absolute w-28 h-72 bg-yellow-300 opacity-30 blur-3xl rounded-full"></div>
+        <div class="relative w-full h-[320px] md:h-[400px] lg:h-[480px] overflow-hidden rounded-full shadow-lg border border-gray-700 bg-black/70 
+            transition-transform duration-300 ease-in-out md:hover:scale-110">
+            <img src="assets/fourth-character.png" alt="Fourth Character" class="w-full h-full object-cover">
+            <img src="assets/arrow.png" alt="Check Icon" 
+            class="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-10 h-10 sm:w-12 sm:h-12 
+             transition-transform duration-300 ease-in-out md:hover:scale-125 cursor-pointer">
+        </div>
+    </div>
+
+    <!-- Fifth Character Box -->
+    <div class="relative flex flex-col items-center w-[320px] md:w-[400px] lg:w-[480px]">
+        <div class="absolute w-28 h-72 bg-yellow-300 opacity-30 blur-3xl rounded-full"></div>
+        <div class="relative w-[320px] md:w-[400px] lg:w-[480px] h-[320px] md:h-[400px] lg:h-[480px] 
+            overflow-hidden shadow-lg border border-gray-700 bg-black/70 flex items-center justify-center text-white 
+            rounded-[80px] transition-transform duration-300 ease-in-out md:hover:scale-110">
+            
+            <img src="assets/fifth-character.png" alt="Fifth Character" class="absolute top-0 left-0 w-full h-full object-cover">
+
+            <!-- Text Content -->
+            <div class="absolute bottom-4 left-4 z-10">
+                <h2 class="text-sm md:text-lg ml-2 lg:text-xl font-bold">LOREM IPSUM DOLOR</h2>
+                <p class="text-[10px] md:text-[12px] ml-2 lg:text-[14px] mt-[10px] leading-tight mb-[25px]">
+                    Lorem ipsum dolor sit amet, consectetur<br>
+                    adipiscing elit, sed do eiusmod tempor,<br>
+                    incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+            
+            <img src="assets/yellow-arrow.png" alt="Check Icon" 
+                class="absolute bottom-4 right-4 w-14 h-14 sm:w-16 sm:h-16 yellow-arrow 
+                transition-transform duration-300 ease-in-out md:hover:scale-125 cursor-pointer">
+        </div>
+    </div>
+    </div>
+
+</div>
+
+<!-- SECTION THREE -->
+<div class="w-full min-h-[130vh] flex flex-col items-center justify-start px-4 pt-20 section-three relative">
+    <!-- HEADER SECTION -->
+    <h2 class="text-white text-3xl md:text-5xl lg:text-8xl font-bold">
+        LOREM IPSUM
+    </h2>
+
+    <!-- RECTANGLE -->
+    <div class="w-[95%] md:w-[75%] lg:w-[85%] 
+        h-[600px] md:h-[650px] lg:h-[650px] 
+        bg-[#040401] border-4 border-[#0F0F0F] rounded-3xl 
+        flex flex-col md:flex-row items-center justify-center md:justify-between 
+        mx-auto mt-20 px-6 md:px-10 relative">
+        
+        <!-- Astronaut Image -->
+        <div class="w-full md:w-[50%] flex justify-center md:justify-start mb-6 md:mb-0">
+            <img src="assets/astronaut.png" alt="astronaut" 
+                class="w-[220px] sm:w-[280px] md:w-[350px] lg:w-[450px] xl:w-[850px]">
+        </div>
+
+        <!-- Right Side Content (Text & Inputs) -->
+        <div class="w-full md:w-[50%] flex flex-col items-center md:items-start">
+            <!-- Heading -->
+            <h2 class="text-white text-lg md:text-2xl lg:text-4xl font-bold mb-2 text-center md:text-left">
+                LOREM IPSUM DOLOR
+            </h2>
+            
+            <!-- Description -->
+            <p class="text-[12px] md:text-[14px] lg:text-[16px] text-white mb-4 text-center md:text-left">
+                Lorem ipsum dolor sit amet, consectetur<br>
+                adipiscing elit, sed do eiusmod tempor<br>
+                incididunt ut labore et dolore magna aliqua.
+            </p>
+
+            <!-- Form Fields -->
+            <div class="mt-6 flex flex-col gap-4 w-full items-center md:items-start">
+                <!-- Email Field -->
+                <input type="email" placeholder="Email" 
+                    class="w-[90%] sm:w-[75%] md:w-[70%] lg:w-[60%] py-3 px-4 bg-[#040401] text-white border-2 border-[#0F0F0F] 
+                    rounded-[80px] outline-none focus:border-yellow-400 text-left placeholder-white placeholder-opacity-50">
+
+                <!-- Password Field -->
+                <input type="password" placeholder="Password" 
+                    class="w-[90%] sm:w-[75%] md:w-[70%] lg:w-[60%] py-3 px-4 bg-[#040401] text-white border-2 border-[#0F0F0F] 
+                    rounded-[80px] outline-none focus:border-yellow-400 text-left placeholder-white placeholder-opacity-50">
+
+                    <!-- Submit Button -->
+                <button class="bg-yellow-300 hover:bg-yellow-500 text-black font-bold py-3 px-8 rounded-full text-lg shadow-lg transition 
+                inline-flex items-center justify-center whitespace-nowrap">
+                <h2>LOREM IPSUM</h2>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
